@@ -1,0 +1,33 @@
+{
+  "name": "authentication-app",
+  "version": "1.0.0",
+  "description": "MEAN stack authentication app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport-jwt": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jokinsey/authentication-app.git"
+  },
+  "keywords": [
+    "MEAN",
+    "STACK"
+  ],
+  "author": "Jacob Kinsey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jokinsey/authentication-app/issues"
+  },
+  "homepage": "https://github.com/jokinsey/authentication-app#readme"
+}
